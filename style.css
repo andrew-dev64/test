@@ -2301,7 +2301,7 @@ select.mobile-device {
     background-color: #333333;
     padding: 40px 30px;
 	margin-right: -1000px ;
-    align-items: stretch;
+    align-items: center;
 }
 
 .contact_form .form-control {
