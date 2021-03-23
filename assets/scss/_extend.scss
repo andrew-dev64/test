@@ -17,9 +17,9 @@ display: flex;
   }
 
   %btn_gradient{
-    background-image: -moz-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
-    background-image: -webkit-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
-    background-image: -ms-linear-gradient( 0deg, rgb(241,68,55) 0%, rgb(237,91,13) 99%);
+    background-image: -moz-linear-gradient( 0deg, red 0%, red 99%);
+    background-image: -webkit-linear-gradient( 0deg, red 0%, red 99%);
+    background-image: -ms-linear-gradient( 0deg, red 0%, red 99%);
   }
   
 // Home Page Gradient

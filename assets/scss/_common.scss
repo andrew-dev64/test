@@ -276,7 +276,7 @@ hr {
 	top: 0;
 	width: 101%;
 	height: 101%;
-	background:#e25311;
+	background:red;
 	z-index: 1;
 	
 	transition: transform 0.5s;
@@ -358,14 +358,14 @@ hr {
 	// Hero Btn
 	.btn.hero-btn{
 		position: relative;
-		box-shadow: -8px 8px 0 #ca611b;
+		box-shadow: -8px 8px 0 red;
 		&:hover{
-			box-shadow: 8px 8px 0 #ca611b;
+			box-shadow: 8px 8px 0 red;
 		}
 	}
 	// Services Arrow Btn
 	.arrow-btn{
-		background:#f27420;
+		background:red;
 		padding: 19px 15px;
 		display: inline-block;
 		line-height: 0;

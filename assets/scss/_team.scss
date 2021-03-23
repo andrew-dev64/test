@@ -11,7 +11,7 @@
     }
     .team-caption{
         & span{
-            color:#ff5f13;
+            color:red;
             font-size: 14px;
             font-weight: 500;
             font-family: $font_3;
@@ -29,7 +29,7 @@
                 top: 50%;
                 transform: translateY(-50%);
                 background: 
-                #ff5f13;
+                red;
             }
         }
         & h3{

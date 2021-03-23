@@ -128,7 +128,7 @@
                 }
     
                 &:nth-child(2){
-                    color: #ff5f13;
+                    color: red;
                     -webkit-animation: animate 4s ease-in-out infinite;
                     animation: animate 4s ease-in-out infinite;
                 }
@@ -238,7 +238,7 @@
                 content: "";
                 width: 75px;
                 height: 1px;
-                background: #ff5f13;
+                background: red;
                 left: 0;
                 top: 52%;
                 transform: translateY(-50%);
@@ -250,13 +250,13 @@
             margin: 0;
 
             a {
-                color: #ff5f13;
+                color: red;
                 font-size: 17px;
                 text-transform: uppercase;
             }
         }
         .breadcrumb-item + .breadcrumb-item::before {
-            color: #ff5f13;
+            color: red;
         }
         &.hero-cap2{
             @media #{$xs}{
