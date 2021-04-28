@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Order</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+</head>
+<style>
+.order-form .container {
+      color: #4c4c4c;
+      padding: 20px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    }
+
+    .order-form-label {
+      margin: 8px 0 0 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .order-form-input {
+      width: 100%;
+      padding: 8px 8px;
+      border-width: 1px !important;
+      border-style: solid !important;
+      border-radius: 3px !important;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.2em;
+      background-color: transparent;
+      border-color: #cccccc;
+    }
+
+    .btn-submit:hover {
+      background-color: #090909 !important;
+    }
+
+    .hr{
+        background-color: blue;
+    }
+</style>
+
+<body>
+    <section class="order-form my-4 mx-4">
+        <div class="container pt-4">
+    <form action="" method="POST">
+          <div class="row">
+            <div class="col-12">
+              <h1>New Order</h1>
+              <span></span>
+              <hr class="mt-1" style="border: 3px solid #167ce2;">
+            </div>
+            <div class="col-12">
+    
+              <div class="row mx-4">
+                <div class="col-12 mb-2">
+                  <label class="order-form-label">Name</label>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <input class="order-form-input" placeholder="First">
+                </div>
+                <div class="col-12 col-sm-6 mt-2 mt-sm-0">
+                  <input class="order-form-input" placeholder="Last">
+                </div>
+              </div>
+
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Email</label>
+                </div>
+                <div class="col-12">
+                  <input class="order-form-input" placeholder=" ">
+                </div>
+              </div>
+    
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Type of paper</label>
+                  <select class="order-form-input" placeholder=" ">
+                    <option value="1">Essay</option>
+                    <option value="2">Research paper</option>
+                    <option value="3">Term paper </option>
+                    <option value="4">Book report</option>
+                    <option value="5">Coursework</option>
+                    </select>
+                </div>
+              </div>
+    
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Subject/Discipline</label>
+                  <select class="order-form-input" placeholder=" ">
+                    <option value="1">Architecture</option>
+                    <option value="2">Journalism</option>
+                    <option value="3">Design Analaysis</option>
+                    <option value="4">Telecommunication</option>
+                    <option value="5">Business</option>
+                    <option value="6">Biology</option>
+                    <option value="7">Creative Writing</option>
+                    <option value="8">Economics</option>
+                    <option value="9">Accounting</option>
+                    </select>
+                </div>
+              </div>
+    
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Topic</label>
+                    <textarea class="form-control" placeholder="Enter your topic here" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Paper Instructions</label>
+                    <textarea class="form-control" placeholder="May include:Paper structures, type of instructions, or any other information" rows="6"></textarea>
+                </div>
+              </div>
+              
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Deadline</label>
+                  <select class="order-form-input" placeholder=" ">
+                    <option value="1">6hrs</option>
+                    <option value="2">12hrs</option>
+                    <option value="3">24hrs</option>
+                    <option value="4">36hrs</option>
+                    <option value="5">2 days</option>
+                    <option value="6">3 days</option>
+                    <option value="7">5 days</option>
+                    <option value="8">8 days</option>
+                    <option value="9">10 days</option>
+                    </select>
+                </div>
+              </div>
+    
+              <div class="row mt-3 mx-4">
+                <div class="col-12">
+                  <label class="order-form-label">Academic level</label>
+                  <br>
+                    <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" name="validation" id="validation" value="1">
+                    <label for="validation" class="form-check-label">phd</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                    <input type="checkbox" class="form-check-input" name="validation" id="validation" value="1">
+                    <label for="validation" class="form-check-label">Masters</label>
+                    <div>
+                    </div>
+                    </div>
+                   
+              <div id="smart-button-container">
+                <div style="text-align: center;">
+                  <div id="paypal-button-container"></div>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+    </form>
+      </section>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+<script>
+  function initPayPalButton() {
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'gold',
+        layout: 'vertical',
+        label: 'paypal',
+        
+      },
+
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{"amount":{"currency_code":"USD","value":1}}]
+        });
+      },
+
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        });
+      },
+
+      onError: function(err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+</script>
+
+
+</body>
+</html>
